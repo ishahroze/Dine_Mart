@@ -48,7 +48,7 @@ import { ShoppingCart } from 'lucide-react';
 const getProductDetail = (id: number | string) => {
       return products.filter((val) => val.id == id);
      };
-function hello({ params }:{params:{id:string}}) {
+function Hello({ params }:{params:{id:string}}) {
   const result = getProductDetail(params.id)
   const[quantity,setquantity]=useState(1)
   const increment=()=>{
@@ -128,5 +128,5 @@ non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
   )
 }
 
-export default hello
+export default Hello
 
