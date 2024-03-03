@@ -27,8 +27,8 @@ function Hello({ params }: { params: { id: string } }) {
 
   return (
     <div>
-      {result.map((item, id) => (
-        <div key={id}>
+      {result.map((item) => (
+        <div key={item.id}>
           <div className='grid grid-cols-[auto,1fr,1fr] gap-0 ml-0 mt-10'>
             <div className='mr-4'>
               <Image src={item.image} alt='hello' width={100} height={100} />
