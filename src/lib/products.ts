@@ -24,4 +24,3 @@ export const products=[
         category:"products",
     }
 ]
-console.log(products.map((item)=>{item.price}))
