@@ -24,8 +24,8 @@ setquantity(quantity+1)
     <div>
 {
   
-  result.map((item,index)=>(
-    <div key={index}>  <div className='grid  grid-cols-[auto,1fr,1fr] gap-0 ml-0 mt-10'><div className='mr-4'><Image
+  result.map((item,id)=>(
+    <div key={id}>  <div className='grid  grid-cols-[auto,1fr,1fr] gap-0 ml-0 mt-10'><div className='mr-4'><Image
     src={item.image}
     alt='hello'
  width={100}
