@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 function Unique() {
   return (
     <div className=' font-sans'>
-<div className='font-extrabold text-5xl pt-16 flex justify-items-end justify-end pb-6 mb-10'>Unique and Authentic Vintage<br/> Designer Jewellery</div>    
-    <div className='grid grid-cols-3 gap-10 ml-8 font-sans'>
+<div className='font-extrabold sm:text-5xl text-2xl pt-16 flex justify-items-end justify-end pb-6 mb-10'>Unique and Authentic Vintage<br/> Designer Jewellery</div>    
+    <div className='grid sm:grid-cols-3 grid-cols-1 gap-10 ml-8 font-sans'>
       <div className='grid grid-cols-2 gap-12'>
        <div>
     <h3 className='font-bold text-lg'>

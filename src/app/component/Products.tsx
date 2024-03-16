@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { products } from '@/lib/products'
 import Productcard from './Productcard'
 function Products() {
+  const productchunks=products.slice(0,3)
   return (
     <div>
          <div className="flex justify-center font-sans mt-9 text-blue-600 font-bold text-xl">
@@ -15,7 +16,7 @@ function Products() {
       Our Promotions Events
     </span>
     <div className='grid grid-cols-3 justify-items-center mt-14 mb-5 pb-6'>
-    {products.map((item) => (
+    {productchunks.map((item) => (
         <Productcard key={item.id} id={item.id}  image={item.image} price={item.price} description={item.description} category={item.category} />
     ))}
 </div>

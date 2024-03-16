@@ -8,12 +8,12 @@ import Link from 'next/link';
 function Cover() {
   return (
    
-    <div className='grid grid-cols-2'>
+    <div className='grid sm:grid-cols-2 grid-cols-1 w-full '>
       <div>
-    <span><Badge className=' bg-blue-100 rounded-md text-3xl  text-blue-900 font-sans'>Sale 70%</Badge></span>
-    <h1 className=' text-6xl font-bold pt-5 pb-5'>An Industrial Take on<br/> Streetwear</h1>
+    <span><Badge className=' bg-blue-100 rounded-md sm:text-3xl text-2xl  text-blue-900 font-sans'>Sale 70%</Badge></span>
+    <h1 className=' sm:text-6xl text-3xl font-bold pt-5 pb-5'>An Industrial Take on<br/> Streetwear</h1>
     <p className='font-sans opacity-80'>Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.</p>
-    <Button variant="outline" className='bg-black text-white text-1xl rounded-none w-44 h-16 font-semibold'>
+    <Button variant="outline" className='bg-black text-white text-1xl rounded-none w-44 h-16  sm:font-semibold font-bold'>
     <ShoppingCart className='size-6 text-white mt-2 mr-2   '/>Start <br/>Shopping</Button>
 <span className='flex flex-row justify-between mt-4'>
   <Image

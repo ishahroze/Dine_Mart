@@ -9,11 +9,11 @@ function Promotions() {
       <div className="flex justify-center font-sans mt-9 text-blue-600 font-bold text-xl">
         Promotions
       </div>
-      <span className="font-bold text-4xl font-sans text-black flex justify-center mt-7">
+      <span className="font-bold sm:text-4xl text-2xl font-sans text-black flex justify-center mt-7">
       
         Our Promotions Events
       </span>
-      <div className=" grid lg:grid-cols-3 gap-4 w-auto h-auto sm:grid-cols-1
+      <div className=" grid sm:grid-cols-3 gap-4 w-auto h-auto grid-cols-1
   col-auto ">
   <div className="bg-gray-200 ">
   <div className="grid grid-rows-1  bg-gray-300 grid-cols-2 text-center col-span-10">
@@ -34,7 +34,7 @@ function Promotions() {
       <p className="text-4xl text-white font-extrabold font-sans justify-items-center pt-5 pb-5 ">
     GET 30% Off</p>
     <p className="text-base text-white">USE PROMO CODE</p>
-    <Button className="text-base font-bold font-sans mt-5 mb-5">DINEWEEKENDSALE</Button>
+    <Button className="">DINEWEEKENDSALE</Button>
     </div>
   </div>
   <div className="bg-yellow-100 p-4 text-base font-sans font-normal "><p>Flext Sweatshirt</p>

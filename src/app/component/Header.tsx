@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -18,13 +19,13 @@ function Header() {
         width={200}
         height={200}
       /></Link> 
-    <a href="/men" className='font-sans'>Male</a>
+    <a href="/category/male" className='font-sans'>Male</a>
+    <a href="/category/female" className='font-sans'>Female</a>
     <a href="#" className='font-sans'>Kids</a>
-    <a href="#" className='font-sans'>Female</a>
     <a href="#" className='font-sans'>All products</a>
-    <a href="#" className="rounded-full flex items-center border  border-solid border-slate-00 max-w-96 ">
-  <Search />
-  <input className="ml-2 flex items-end text-1xl h-6 outline-none"
+    <a href="#" className="flex items-center border rounded-md border-black border-opacity-10 ">
+  <Search className='h-5' />
+  <input className="ml-2 flex items-end text-1xl h-5 "
          type="text"
          placeholder="What are you looking for"
   />
