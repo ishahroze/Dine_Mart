@@ -13,9 +13,9 @@ function Products() {
       </div>
       <span className="font-bold text-4xl font-sans text-black flex justify-center mt-7">
       
-      Our Promotions Events
+      Our Hot Selling Products
     </span>
-    <div className='grid grid-cols-3 justify-items-center mt-14 mb-5 pb-6'>
+    <div className='grid  grid-cols-1 md:grid-cols-3 justify-items-center mt-14 mb-5 pb-6'>
     {productchunks.map((item) => (
         <Productcard key={item.id} id={item.id}  image={item.image} price={item.price} description={item.description} category={item.category} />
     ))}

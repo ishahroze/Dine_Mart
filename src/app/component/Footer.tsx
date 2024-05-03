@@ -6,7 +6,7 @@ import { Facebook } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
 function Footer() {
   return (
-    <div className='container grid grid-cols-4 gap-8 justify-evenly mt-10  pb-20'>
+    <div className='container grid sm:grid-cols-4 grid-cols-1 gap-8 justify-evenly mt-10  pb-20'>
     <div className='bg-white flex justify-between flex-col'>
     <Image
         src={"/Logo.webp"}

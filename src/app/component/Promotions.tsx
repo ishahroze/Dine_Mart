@@ -13,8 +13,7 @@ function Promotions() {
       
         Our Promotions Events
       </span>
-      <div className=" grid sm:grid-cols-3 gap-4 w-auto h-auto grid-cols-1
-  col-auto ">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-auto h-auto">
   <div className="bg-gray-200 ">
   <div className="grid grid-rows-1  bg-gray-300 grid-cols-2 text-center col-span-10">
     <div className="pt-7"><h3 className="font-sans text-3xl font-bold flex flex-col">Get upto <br/> 60 %
